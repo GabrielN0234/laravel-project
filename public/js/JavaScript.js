@@ -29,7 +29,7 @@ function juegoDeLetras(cadena){
     var cambio = false;
     for (let index = 0; index < length; index++) {
         if(cadena.charAt(index) != ' '){
-            if(!cambio){
+            if(!cambio) {
                 newCadena = newCadena+cadena.charAt(index).toUpperCase();
                 var cambio = true;
             }else{
