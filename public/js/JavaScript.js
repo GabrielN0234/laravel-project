@@ -1,4 +1,5 @@
 //  funcion para ejercicio #4 
+// experimental branch 2
 function setButtons(){
     var id1 = '#button1';
     var id2 = '#button2';
@@ -29,7 +30,7 @@ function juegoDeLetras(cadena){
     var cambio = false;
     for (let index = 0; index < length; index++) {
         if(cadena.charAt(index) != ' '){
-            if(!cambio) {
+            if(!cambio)  {
                 newCadena = newCadena+cadena.charAt(index).toUpperCase();
                 var cambio = true;
             }else{
